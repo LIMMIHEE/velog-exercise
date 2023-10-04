@@ -8,12 +8,16 @@ class MainScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const ScaffoldLayout(
+    return ScaffoldLayout(
         title: 'Velog 예제 메인 페이지',
         child: Center(
           child: SingleChildScrollView(
             child: Column(
               children: [
+                MainOutLineButton(
+                  text: 'Bloc 예제',
+                  onTap: () => pushScreen(context, const BlocExerciseScreen()),
+                ),
               ],
             ),
           ),
