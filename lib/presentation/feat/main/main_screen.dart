@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:velog_exercise/presentation/feat/bloc/bloc_screen.dart';
 import 'package:velog_exercise/presentation/feat/exception/exception_screen.dart';
+import 'package:velog_exercise/presentation/feat/provider/provider_screen.dart';
 import 'package:velog_exercise/presentation/feat/synchronous/synchronous_screen.dart';
 import 'package:velog_exercise/presentation/widget/common/scaffold_layout.dart';
 import 'package:velog_exercise/presentation/widget/main/main_outline_button.dart';
@@ -27,6 +28,10 @@ class MainScreen extends StatelessWidget {
                 MainOutLineButton(
                   text: '예외 예제',
                   onTap: () => pushScreen(context, const ExceptionScreen()),
+                ),
+                MainOutLineButton(
+                  text: 'Provider 예제',
+                  onTap: () => pushScreen(context, const ProviderScreen()),
                 ),
               ],
             ),
