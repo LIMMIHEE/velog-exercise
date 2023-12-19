@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:velog_exercise/presentation/feat/provider/provider/count_provider.dart';
+import 'package:velog_exercise/data/provider/count_provider.dart';
 
 class ProviderLayout extends StatelessWidget {
   const ProviderLayout({super.key});

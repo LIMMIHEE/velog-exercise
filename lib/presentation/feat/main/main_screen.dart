@@ -41,7 +41,8 @@ class MainScreen extends StatelessWidget {
                 ),
                 MainOutLineButton(
                   text: 'Container Const 테스트',
-                  onTap: () => pushScreen(context, const ContainerConstScreen()),
+                  onTap: () =>
+                      pushScreen(context, const ContainerConstScreen()),
                 ),
               ],
             ),

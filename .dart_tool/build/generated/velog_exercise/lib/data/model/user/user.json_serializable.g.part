@@ -1,0 +1,14 @@
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+_$UserImpl _$$UserImplFromJson(Map<String, dynamic> json) => _$UserImpl(
+      name: json['name'] as String,
+      id: json['id'] as int,
+    );
+
+Map<String, dynamic> _$$UserImplToJson(_$UserImpl instance) =>
+    <String, dynamic>{
+      'name': instance.name,
+      'id': instance.id,
+    };

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:velog_exercise/presentation/feat/bloc/bloc/counter_bloc.dart';
-import 'package:velog_exercise/presentation/feat/bloc/bloc/counter_event.dart';
-import 'package:velog_exercise/presentation/feat/bloc/bloc/counter_state.dart';
+import 'package:velog_exercise/data/bloc/counter_bloc.dart';
+import 'package:velog_exercise/data/bloc/counter_event.dart';
+import 'package:velog_exercise/data/bloc/counter_state.dart';
 import 'package:velog_exercise/presentation/widget/common/scaffold_layout.dart';
 
 class BlocScreen extends StatelessWidget {
