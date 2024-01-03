@@ -3,6 +3,7 @@ import 'package:velog_exercise/presentation/feat/bloc/bloc_screen.dart';
 import 'package:velog_exercise/presentation/feat/container_const/container_const_screen.dart';
 import 'package:velog_exercise/presentation/feat/custom_clipper/custom_clipper_screen.dart';
 import 'package:velog_exercise/presentation/feat/exception/exception_screen.dart';
+import 'package:velog_exercise/presentation/feat/get_it/get_it_screen.dart';
 import 'package:velog_exercise/presentation/feat/provider/provider_screen.dart';
 import 'package:velog_exercise/presentation/feat/synchronous/synchronous_screen.dart';
 import 'package:velog_exercise/presentation/widget/common/scaffold_layout.dart';
@@ -43,6 +44,10 @@ class MainScreen extends StatelessWidget {
                   text: 'Container Const 테스트',
                   onTap: () =>
                       pushScreen(context, const ContainerConstScreen()),
+                ),
+                MainOutLineButton(
+                  text: 'Get it 테스트',
+                  onTap: () => pushScreen(context, const GetItScreen()),
                 ),
               ],
             ),

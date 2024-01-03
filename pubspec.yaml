@@ -18,6 +18,7 @@ dependencies:
   provider:
   freezed_annotation:
   json_annotation:
+  get_it:
 
 dev_dependencies:
   flutter_test:
